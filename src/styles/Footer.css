@@ -116,6 +116,77 @@
   background-color: rgba(255,255,255,0.1);
 }
 
+/* 主催者セクション */
+.footer-organizer {
+  flex: 1;
+  min-width: 200px;
+}
+
+.organizer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.organizer-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 
+    0 4px 15px rgba(0, 204, 255, 0.3),
+    0 0 20px rgba(0, 250, 255, 0.2);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--cyan-glow);
+}
+
+.organizer-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.organizer-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--cyan-glow), var(--blue-glow));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.organizer-icon {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.organizer-details {
+  text-align: center;
+}
+
+.organizer-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cyan-glow);
+  margin-bottom: 0.3rem;
+  text-shadow: 0 0 10px rgba(0, 204, 255, 0.3);
+}
+
+.organizer-title {
+  font-size: 0.9rem;
+  color: #adb5bd;
+  margin: 0;
+  font-style: italic;
+}
+
+/* レスポンシブデザイン更新 */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -129,5 +200,9 @@
   
   .footer-links ul {
     text-align: center;
+  }
+  
+  .organizer-info {
+    align-items: center;
   }
 }

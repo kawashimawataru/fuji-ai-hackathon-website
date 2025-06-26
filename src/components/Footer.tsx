@@ -1,4 +1,5 @@
 import '../styles/Footer.css';
+import kawashimaImage from './images/kawashima.jpg';
 
 const Footer = () => {
   return (
@@ -34,6 +35,33 @@ const Footer = () => {
             <a href="https://www.city.fujinomiya.lg.jp/1015100000/p002985.html" target="_blank" rel="noopener noreferrer" aria-label="地域おこし協力隊サイト" className="social-link-icon">
               <img src="/assets/website-icon.svg" alt="地域おこし協力隊サイト" />
             </a>
+          </div>
+        </div>
+
+        <div className="footer-organizer">
+          <h4>主催者</h4>
+          <div className="organizer-info">
+            <div className="organizer-image">
+              <img 
+                src={kawashimaImage} 
+                alt="主催者 河島航" 
+                className="organizer-photo"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (nextElement) {
+                    nextElement.style.display = 'flex';
+                  }
+                }}
+              />
+              <div className="organizer-placeholder" style={{display: 'none'}}>
+                <span className="organizer-icon">👨‍💻</span>
+              </div>
+            </div>
+            <div className="organizer-details">
+              <p className="organizer-name">河島航</p>
+              <p className="organizer-title">富士宮市地域おこし協力隊</p>
+            </div>
           </div>
         </div>
       </div>
