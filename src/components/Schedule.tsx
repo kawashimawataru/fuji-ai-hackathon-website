@@ -188,7 +188,7 @@ const Schedule = () => {
       
       {/* 協賛企業紹介セクション */}
       <div className="sponsors-section" data-aos="fade-up">
-        <h3 className="sponsors-title">協賛企業・団体 <span className="coming-soon-badge"></span></h3>
+        <h3 className="sponsors-title">協賛企業・団体 </h3>
         <div className="sponsors-container">
           <div className="sponsor-card" data-aos="fade-up" data-aos-delay="100">
             <div className="sponsor-logo">
