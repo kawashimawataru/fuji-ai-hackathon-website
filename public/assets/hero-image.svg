@@ -1,0 +1,40 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Fuji Mountain -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEC6CF" />
+      <stop offset="100%" stop-color="#E6E6FA" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="600" height="450" fill="url(#skyGradient)"/>
+  
+  <!-- Mount Fuji -->
+  <path d="M0,450 L600,450 L500,180 L400,250 L300,150 L200,220 L100,180 L0,450 Z" fill="#6B7A8F"/>
+  <path d="M100,180 L200,220 L300,150 L400,250 L500,180 L450,320 L150,320 L100,180 Z" fill="#F7F9FB"/>
+  
+  <!-- Laptop with code -->
+  <rect x="220" y="290" width="160" height="110" rx="8" fill="#333"/>
+  <rect x="225" y="295" width="150" height="90" fill="#EEE"/>
+  <rect x="240" y="300" width="120" height="80" fill="#333"/>
+  
+  <!-- Code on screen -->
+  <rect x="250" y="310" width="50" height="4" fill="#4CAF50"/>
+  <rect x="250" y="318" width="40" height="4" fill="#2196F3"/>
+  <rect x="250" y="326" width="60" height="4" fill="#FF9800"/>
+  <rect x="250" y="334" width="30" height="4" fill="#9C27B0"/>
+  <rect x="250" y="342" width="45" height="4" fill="#F44336"/>
+  <rect x="250" y="350" width="55" height="4" fill="#FFEB3B"/>
+  <rect x="250" y="358" width="25" height="4" fill="#03A9F4"/>
+  
+  <!-- AI brain symbol -->
+  <circle cx="400" cy="160" r="40" fill="#EAECEE" opacity="0.8"/>
+  <path d="M380,160 Q400,130 420,160 Q400,190 380,160 Z" fill="none" stroke="#4CAF50" stroke-width="3"/>
+  <path d="M400,140 L400,180" stroke="#2196F3" stroke-width="2"/>
+  <path d="M380,150 L420,150" stroke="#FF9800" stroke-width="2"/>
+  <path d="M380,170 L420,170" stroke="#9C27B0" stroke-width="2"/>
+  
+  <!-- Text "AI Hackathon" -->
+  <text x="300" y="120" font-family="Arial" font-size="24" fill="#333" font-weight="bold" text-anchor="middle">富士宮 AI ハッカソン</text>
+</svg>
