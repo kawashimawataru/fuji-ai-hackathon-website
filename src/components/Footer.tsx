@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
             <div className="organizer-details">
               <p className="organizer-name">河島航</p>
-              <p className="organizer-title">富士宮市地域おこし協力隊</p>
+              <p className="organizer-title">富士宮市地域おこし協力隊インターン</p>
             </div>
           </div>
         </div>
