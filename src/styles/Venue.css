@@ -108,6 +108,16 @@
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* 駐車場情報のハイライト */
+.parking-info {
+  color: #27ae60 !important;
+  font-weight: 600;
+  background: rgba(46, 204, 113, 0.1);
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border-left: 3px solid #27ae60;
+}
+
 @media (max-width: 768px) {
   .venue-container {
     flex-direction: column;

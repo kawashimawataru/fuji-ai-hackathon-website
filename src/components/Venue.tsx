@@ -21,6 +21,7 @@ const Venue = () => {
               <li>プレゼンテーション用設備</li>
               <li>コーヒー・軽食の提供</li>
               <li>リラックスできるチルアウトエリア</li>
+              <li className="parking-info">🚗 駐車場完備</li>
             </ul>
           </div>
         </div>

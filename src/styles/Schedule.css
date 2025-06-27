@@ -521,33 +521,6 @@
   font-size: 0.9rem;
 }
 
-/* キャッチコピー */
-.catchphrase {
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.catchphrase-content {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(238, 90, 36, 0.1));
-  padding: 2rem;
-  border-radius: 15px;
-  border: 2px solid rgba(255, 107, 107, 0.3);
-  box-shadow: 0 8px 32px rgba(255, 107, 107, 0.2);
-}
-
-.catchphrase-content h3 {
-  color: #ff6b6b;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  text-shadow: 0 0 20px rgba(255, 107, 107, 0.3);
-}
-
-.catchphrase-content p {
-  color: #333;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
 /* 重要なお知らせセクション */
 .important-notice {
   margin: 3rem 0;
@@ -560,15 +533,15 @@
   box-shadow: 
     0 8px 32px rgba(0, 204, 255, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 193, 7, 0.4);
+  border: 2px solid rgba(52, 152, 219, 0.3);
 }
 
 .notice-content h3 {
-  color: #e67e22;
+  color: #3498db;
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  text-shadow: 0 0 15px rgba(230, 126, 34, 0.3);
+  text-shadow: 0 0 15px rgba(52, 152, 219, 0.3);
 }
 
 .notice-grid {
@@ -623,14 +596,32 @@
   text-shadow: 0 0 10px rgba(231, 76, 60, 0.3);
 }
 
-.highlight {
-  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+/* 応募情報の先着順バッジ */
+.application-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: rgba(52, 152, 219, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid #3498db;
+}
+
+.notice-badge {
+  background: linear-gradient(135deg, #3498db, #2980b9);
   color: white;
-  padding: 2px 8px;
+  padding: 0.3rem 0.8rem;
   border-radius: 12px;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+
+.application-notice .notice-text {
+  color: #2c3e50;
   font-size: 0.9rem;
-  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+  font-weight: 500;
 }
 
 /* レスポンシブデザイン */

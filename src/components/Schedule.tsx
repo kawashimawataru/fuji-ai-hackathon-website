@@ -48,14 +48,6 @@ const Schedule = () => {
     <div className="schedule">
       <h2 data-aos="fade-up">イベントスケジュール</h2>
       
-      {/* キャッチコピー */}
-      <div className="catchphrase" data-aos="fade-up">
-        <div className="catchphrase-content">
-          <h3>🌟 夏休みでAI力を鍛えよう！</h3>
-          <p>富士宮の夏を熱くする、特別なAIハッカソンがいよいよ開催！</p>
-        </div>
-      </div>
-      
       {/* 重要なお知らせ */}
       <div className="important-notice" data-aos="fade-up">
         <div className="notice-content">
@@ -73,20 +65,6 @@ const Schedule = () => {
               <div className="notice-text">
                 <strong>参加費</strong>
                 <p>一律 <span className="price">1,000円</span></p>
-              </div>
-            </div>
-            <div className="notice-item">
-              <span className="notice-icon">⏰</span>
-              <div className="notice-text">
-                <strong>募集方法</strong>
-                <p><span className="highlight">先着順</span>での受付となります</p>
-              </div>
-            </div>
-            <div className="notice-item">
-              <span className="notice-icon">🚗</span>
-              <div className="notice-text">
-                <strong>駐車場</strong>
-                <p>会場には駐車場をご用意しております</p>
               </div>
             </div>
           </div>
@@ -305,6 +283,10 @@ const Schedule = () => {
           <div className="application-card" data-aos="fade-right">
             <h4>参加者募集</h4>
             <p>AIの力で地域課題を解決する参加者を募集しています！初心者から上級者まで、どなたでもご参加いただけます。</p>
+            <div className="application-notice">
+              <span className="notice-badge">⏰ 先着順</span>
+              <span className="notice-text">お早めにお申し込みください</span>
+            </div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSep0p0w_39q6CWQjq_eiJcVgoA0SJyFOyNHxkNlS8Pb0lvdww/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="application-link">
               参加申込フォーム
             </a>

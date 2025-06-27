@@ -116,6 +116,40 @@ h1 {
   box-shadow: var(--neon-shadow);
 }
 
+/* ヒーローキャッチコピー */
+.hero-catchphrase {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.catchphrase-text {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+  animation: pulse-glow 2s infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes pulse-glow {
+  0% { 
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+    transform: scale(1);
+  }
+  50% { 
+    box-shadow: 0 6px 25px rgba(255, 107, 107, 0.6);
+    transform: scale(1.02);
+  }
+  100% { 
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;

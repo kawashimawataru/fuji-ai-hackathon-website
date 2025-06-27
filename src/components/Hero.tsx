@@ -5,6 +5,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-content" data-aos="fade-right">
+        <div className="hero-catchphrase" data-aos="fade-down">
+          <span className="catchphrase-text">🌟 夏休みでAI力を鍛えよう！</span>
+        </div>
         <h1 className="animate-text">富士宮AIハッカソン 2025 Summer</h1>
         <p className="hero-subtitle" data-aos="fade-right" data-aos-delay="200">言葉とアイデアがアプリになる！
           <br /> 君も未来のプログラマーだ！</p>
