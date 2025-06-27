@@ -30,7 +30,7 @@ const Schedule = () => {
     },
     {
       day: "Day 3",
-      date: "8月17日(日)",
+      date: "8月24日(日)",
       events: [
         { time: "10:00 - 11:00", title: "最終開発・仕上げ作業" },
         { time: "11:00 - 12:00", title: "プレゼンテーション準備" },
@@ -47,6 +47,51 @@ const Schedule = () => {
   return (
     <div className="schedule">
       <h2 data-aos="fade-up">イベントスケジュール</h2>
+      
+      {/* キャッチコピー */}
+      <div className="catchphrase" data-aos="fade-up">
+        <div className="catchphrase-content">
+          <h3>🌟 夏休みでAI力を鍛えよう！</h3>
+          <p>富士宮の夏を熱くする、特別なAIハッカソンがいよいよ開催！</p>
+        </div>
+      </div>
+      
+      {/* 重要なお知らせ */}
+      <div className="important-notice" data-aos="fade-up">
+        <div className="notice-content">
+          <h3>📢 重要なお知らせ</h3>
+          <div className="notice-grid">
+            <div className="notice-item">
+              <span className="notice-icon">🍽️</span>
+              <div className="notice-text">
+                <strong>昼食について</strong>
+                <p>昼食は各自でご用意ください。会場周辺に飲食店やコンビニがあります。</p>
+              </div>
+            </div>
+            <div className="notice-item">
+              <span className="notice-icon">💰</span>
+              <div className="notice-text">
+                <strong>参加費</strong>
+                <p>一律 <span className="price">1,000円</span></p>
+              </div>
+            </div>
+            <div className="notice-item">
+              <span className="notice-icon">⏰</span>
+              <div className="notice-text">
+                <strong>募集方法</strong>
+                <p><span className="highlight">先着順</span>での受付となります</p>
+              </div>
+            </div>
+            <div className="notice-item">
+              <span className="notice-icon">🚗</span>
+              <div className="notice-text">
+                <strong>駐車場</strong>
+                <p>会場には駐車場をご用意しております</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       {/* イベント形式の説明 */}
       <div className="event-format" data-aos="fade-up">
